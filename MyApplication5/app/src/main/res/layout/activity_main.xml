@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout_manager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+
+</LinearLayout>
+<!-- parenttop? 뭐 그런거 한거
+    <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="20dp">
+<TextView
+    android:id="@+id/address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="주소를 입력하세요"
+    android:layout_alignParentTop="true"
+    android:textSize="70px"/>
+<EditText
+    android:id="@+id/input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/editbox_background"
+    android:layout_below="@id/address"/>
+<Button
+    android:id="@+id/cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/input"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="10dip"
+    android:text="취소"/>
+<Button
+    android:id="@+id/ok"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/input"
+    android:layout_toLeftOf="@id/cancel"
+    android:layout_alignTop="@id/cancel"
+    android:text="확인"/>
+</RelativeLayout>
+-->
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30px">
+    <TableRow>
+        <TextView android:text="주소 "/>
+        <EditText android:text="대구 수성구"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="이름 "/>
+        <EditText android:text="이준형"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="저장 "/>
+        <Button android:text="취소"/>
+    </TableRow>
+</TableLayout>
